@@ -1,10 +1,23 @@
-import React from 'react'
+import Outlet from 'react'
 
 const Layout = () => {
   return (
+    <>
+        
+      <header>
 
-    <div>Layout</div>
-    
+      </header>
+
+      <main>
+  <Outlet/>
+      </main>
+
+      <footer>
+
+      </footer>
+
+    </>
+
   )
 }
 
