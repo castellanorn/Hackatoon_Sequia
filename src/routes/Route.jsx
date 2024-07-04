@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../home";
 import Layout from "../components/layout/Layout";
+import Team from "../pages/team/Team";
 import ContactForm from "../pages/ContactForm";
 
 // Comentarios fuera del objeto de rutas
@@ -13,20 +14,22 @@ import ContactForm from "../pages/ContactForm";
 
 export const router = createBrowserRouter([
     {
-        path: "/",
-        element: <Layout />,
+
+        path:"/",
+        element:<Layout />,
         children: [
-            {
+            /* {
                 path: "/",
-                element: <Home />,
+                element:<Home />
+            }, */
+            {
+                path: "/team",
+                element:<Team />
             },
             {
                 path: "/contact",
                 element: <ContactForm />,
             },
-            
-        ],
-    },
 ]);
 
 export default router;
