@@ -2,7 +2,7 @@
 import './Team.css';
 import CardTeam  from '../../components/CardTeam';
 
-const Team = ({children}) => {
+const Team = () => {
     return (
         <div className="text-center p-5">
         <h1>Conoce a nuestro equipo</h1>
