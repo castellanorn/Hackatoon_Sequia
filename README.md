@@ -71,7 +71,6 @@ Para visualizar el proyecto en Local:
    ```bash
    npm run dev
    ```
-2. Abrir que 
 
 ## Estructura del proyecto 📐
 
@@ -79,27 +78,28 @@ Para visualizar el proyecto en Local:
 /
 ├── public
 ├── src
+|   ├── assets
 │   ├── components/
-│   │   ├── homepage
-│   │   ├── tracker
-│   │   └── ui
+│   │   ├── common
+│   │   └── layout 
 │   ├── config
-│   ├── hooks
-│   ├── layout
-│   ├── lib
 │   ├── pages
-│   ├── router
+│   ├── routes
 │   ├── services
-│   ├── utils
+│   ├── App.css
+│   ├── App.jsx
+│   ├── home.jsx
 │   ├── index.css
 │   └── main.jsx
-├── components.json
+├── eslintrc.cjs
+├── .gitignore
 ├── index.html
-├── README.md
-├── jsconfig.json
 ├── package-lock.json
 ├── package.json
+├── pnpm-lock.yaml
 ├── postcss.config.js
+├── README.md
+├── jsconfig.json
 ├── tailwind.config.js
 └── vite.config.js
 
@@ -108,13 +108,10 @@ Para visualizar el proyecto en Local:
 - **public/:** Contiene los recursos estáticos del proyecto como imágenes, iconos y fuentes.
 - **src/:** Contiene los archivos fuente de la aplicación.
   - **_components/:_** Contiene los componentes reutilizables de React.
-    - **_homepage/:_** Contiene todos los componentes, separados por carpetas individuales, que forman la parte de homepage del proyecto.
-    - **_tracker/:_** Contiene todos los componentes, separados por carpetas individuales, que forman la parte de tracker del proyecto.
-    - **_ui/:_** Contiene los componentes importados de la librería shadcn.
   - **_config/:_** Contiene el arcihvo urls.js, que nos ayuda a dinamizar la llamada a la API.
   - **layout:** Carpeta que contiene las rutas de los dos layouts principales (homepage y tracker) de la aplicación.
   - **_pages:_** Carpeta que contiene las rutas a las páginas dinámicas de la aplicación.
-  - **_router:_** Dentro del que se encuentra index.jsx, que contiene la lógica de rutas de la aplicación.
+  - **_routes:_** Dentro del que se encuentra index.jsx, que contiene la lógica de rutas de la aplicación.
   - **_services:_** Dentro del que se encuentra useApi.jsx con la llamada a la API reutilizada en todos los apartados de la aplicación.
 
 ## Tecnologías empleadas en Front 🔬
@@ -124,7 +121,7 @@ Para visualizar el proyecto en Local:
 - [TailwindCSS](https://tailwindcss.com/)
 - [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 - [React.js](https://reactjs.org/)
-- [Jest](https://jestjs.io/)
+- [Vite](https://vitejs.dev/)
 
 Librerias utilizadas
 
@@ -144,31 +141,26 @@ Librerias utilizadas
 
 ### Convenciones del proyecto
 
-Uso de GitFlow.
+1. Nombres de variables en inglés con camelCase.
 
-Trabajamos desde y a la rama dev.
+2. Commits en impertativo (Add, Change, Fix, Remove, …) descriptivos y en inglés.
 
-Estilos CSS con Tailwind CSS.
+3. Uso de GitFlow.
 
-Usamos librería [shadcn]() para ciertos componentes.
+4. Trabajamos desde la rama dev y creando la ramas desde allí para luego ir integrandolas.
 
-Nombramiento de las carpetas y documentos jsx:
+5. Estilos CSS con Tailwind CSS.
 
-```bash
- componentes
-    soyUnComponente 📂
-        SoyUnComponente.jsx
-```
 
 ## Developers 👩‍💻
 
 - [Jessica Arroyo](https://github.com/jess-ar)
-- [Rossemary Castellanos](https://github.com/BSN-Asumiko)
-- [Miguel Angel](https://github.com/BettyLopo)
-- [Maite G. Blanco](https://github.com/Carlassanchez24)
-- [Eyad Atalah](https://github.com/ItalianCookieMonster)
-- [Norbert F. Maillo](https://github.com/Carlassanchez24)
-- [Ivan Vallejos](https://github.com/ItalianCookieMonster)
+- [Rossemary Castellanos](https://github.com/castellanorn)
+- [Miguel Angel](https://github.com/MiguelAngelGSG)
+- [Maite G. Blanco](https://github.com/maicodedev)
+- [Eyad Atalah](https://github.com/eyadcode4)
+- [Norbert F. Maillo](https://github.com/NCorvusH)
+- [Ivan Vallejos](https://github.com/MegaDraconius)
 
 ## Mockup y Capturas de Pantalla 📸
 
@@ -203,4 +195,6 @@ El diseño se realizó utilizando Figma, una potente herramienta para diseñar p
 
 ## Despliegue del Proyecto
 
-El proyecto se despliega en los servidores de netlify 
+Desplegamos nuestra página usando GitHub Pages, lo que nos ofrece hosting gratuito, integración continua, soporte para dominios personalizados y una fácil configuración directamente desde nuestros repositorios.
+
+- Enlace a la pagina de  [Sequiatron.]()
