@@ -27,10 +27,7 @@ body {
     color: var(--col-text);
 }
 
-ul,
-li {
-    list-style: none;
-}
+
 
 @font-face {
     font-family: 'Themify';
