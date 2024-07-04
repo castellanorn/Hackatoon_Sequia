@@ -12,7 +12,13 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
     "react-router-dom": "^6.24.1"
+=======
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.24.1",
+    "react-simple-maps": "^3.0.0"
+>>>>>>> bb72fa8e80f08dfa20f6fecd0f597010f9c3977c
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

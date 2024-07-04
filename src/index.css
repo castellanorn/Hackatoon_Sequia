@@ -1,3 +1,51 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+:root {
+    --col-body: rgb(33, 90, 109);
+    --col-navbar: rgb(60, 162, 162);
+    --col-footer: rgb(78, 119, 119);
+    --col-button: rgb(19, 110, 110);
+    --col-text: rgb(255, 255, 255);
+    --col-logo-text: rgb(45, 45, 41);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Themify';
+    src: url('/assets/fonts/themify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    font-family: 'Themify', sans-serif;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('/assets/fonts/fontawesome-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-f {
+    font-family: 'FontAwesome', sans-serif;
+}
