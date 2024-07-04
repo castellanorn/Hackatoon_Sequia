@@ -1,23 +1,24 @@
 
 import './Team.css';
-import MaiteImage from './maite.jpg';
+import CardTeam  from '../../components/CardTeam';
 
-const Team = () => {
+const Team = ({children}) => {
     return (
-        <div className="team-container">
+        <div className="text-center p-5">
         <h1>Conoce a nuestro equipo</h1>
         <p>
         Nuestro equipo está formado por profesionales dedicados a brindarte el mejor servicio y apoyo en todos tus trámites y consultas.
         Con una amplia experiencia y un compromiso firme con la atención ciudadana, estamos aquí para ayudarte en cada paso del camino.
         </p>
-        <div className="team-member">
-        <img src={MaiteImage} alt="Maite G. Blanco" className="team-image" />
-        <h2>Maite G. Blanco</h2>
-        <h3>Front-end Developer</h3>
-        <p>Maite es una experimentada developer full stack.</p>
-        </div>
+
+    <CardTeam name = 'Maite' image = '../../assets/images/maite.jpg' roll = 'Front-end dev' description = "Lorem ipsum bla bla bla" />
+    <CardTeam name = 'Jess' image = '../../assets/images/maite.jpg' roll = 'Front-end dev' description = "Lorem ipsum bla bla bla" />
+    <CardTeam name = 'Rosse' image = '../../assets/images/maite.jpg' roll = 'Front-end dev' description = "Lorem ipsum bla bla bla" />
+
     </div>
 );
 };
 
 export default Team;
+
+

@@ -1,6 +1,7 @@
 
 import Team from './Team';
 
+
 const App = () => {
   return (
     <div className="app">
