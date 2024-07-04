@@ -17,6 +17,7 @@ import ContactForm from "../pages/ContactForm";
 // ];
 
 export const router = createBrowserRouter([
+
   {
     path: "/",
     element: <Layout />,
@@ -32,5 +33,6 @@ export const router = createBrowserRouter([
     ],
   },
 ]);
+
 
 export default router;
