@@ -13,16 +13,17 @@ import ContactForm from "../pages/ContactForm";
 // ];
 
 export const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [
-        { path: "/", element: <Home /> },
-        { path: "/team", element: <Team /> },
-        { path: "/contact", element: <ContactForm /> },
-    
-    ],
-  },
-]);
+
+    {
+        path: "/",
+        element: <Layout />,
+        children: [
+            { path: "/", element: <Home /> },
+            { path: "/team", element: <Team /> },
+            { path: "/contact", element: <ContactForm /> },
+
+        ]
+    }
+])
 
 export default router;
