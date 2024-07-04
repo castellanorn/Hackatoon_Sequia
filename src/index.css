@@ -20,6 +20,7 @@
     font-family: 'Inria Sans', sans-serif;
 }
 
+
 body {
     width: 100vw;
     min-height: 100vh;
@@ -27,6 +28,10 @@ body {
     color: var(--col-text);
 }
 
+ul,
+li {
+    list-style: none;
+}
 
 
 @font-face {
