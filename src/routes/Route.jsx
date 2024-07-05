@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../home";
 import Layout from "../components/layout/Layout";
-import Team from "../pages/team/Team";
+import Team from "../pages/Team";
 import ContactForm from "../pages/ContactForm";
 
 // Comentarios fuera del objeto de rutas
