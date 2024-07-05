@@ -109,7 +109,7 @@ const MapView = () => {
   });
 
   return (
-    <div style={{ height: "75vh", width: "75%" }}>
+    <div style={{ height: "70vh", width: "70%" }}>
       <MapContainer
         center={position}
         zoom={8}
