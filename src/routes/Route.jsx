@@ -1,24 +1,23 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../home";
 import Layout from "../components/layout/Layout";
-import Team from "../pages/Team";
-import Mapa from "../pages/MapView";
+import Home from "../home";
 import ContactForm from "../pages/ContactForm";
+import Mapa from "../pages/MapView";
+import Team from "../pages/Team";
+import Tips from "../pages/Tips";
 
 export const router = createBrowserRouter([
-
-    {
-        path: "/",
-        element: <Layout />,
-        children: [
-            { path: "/", element: <Home /> },
-            { path: "/team", element: <Team /> },
-            { path: "/contact", element: <ContactForm /> },
-            { path: "/mapa", element:<Mapa />
-            }
-
-        ]
-    }
-])
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/team", element: <Team /> },
+      { path: "/contact", element: <ContactForm /> },
+      { path: "/mapa", element: <Mapa /> },
+      { path: "/tips", element: <Tips /> },
+    ],
+  },
+]);
 
 export default router;
