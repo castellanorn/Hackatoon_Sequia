@@ -216,7 +216,7 @@ Desplegamos nuestra página usando GitHub Pages, lo que nos ofrece hosting gratu
 
 Además de las ventajas técnicas que ofrece GitHub Pages, también lo seleccionamos por su compromiso con la sostenibilidad. Al ser una plataforma de alojamiento web ecológica, nos permite contribuir a la conservación del medio ambiente mientras desarrollamos y desplegamos nuestra página
 
-- Enlace a la pagina de  [Sequiatron.]()
+- Enlace a la pagina de  [Sequiatron.](https://sequiatron.netlify.app/)
 
 
 
