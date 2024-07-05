@@ -85,14 +85,14 @@ const MapView = () => {
   }, []);
 
   const colors = [
-    "#e6d185", // Alerta
-    "#ffa040", // Excepcionalitat
-    "#ee000c", // Emergencia
-    "#03a64f", // Prealerta
-    "#03a64f", // Prealerta
-    "#ffa040", // Excepcionalitat
-    "#e6d185", // Alerta
-    "#03a64f", // Prealerta
+    "#e6d185", // Alt Pirineu i Aran (Lleida)
+    "#e6d185", // Àmbit metropolità
+    "#03a64f", // Baix Penedes
+    "#ffa040", // Comarques centrals
+    "#ee000c", // Catalunya del Nord
+    "#03a64f", // Terres de l'ebre
+    "#e6d185", // Ponent
+    "#e6d185", // Comarques gironines
   ];
 
   const onEachFeature = (feature, layer) => {
