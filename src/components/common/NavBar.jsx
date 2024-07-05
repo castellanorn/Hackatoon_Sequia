@@ -1,23 +1,31 @@
 import { useState } from "react";
 import { HiBars3 } from "react-icons/hi2";
-import Menu from "../common/Menu";
+import Menu from "../Menu";
 
 const NavBar = () => {
-  const [menu, setMenu] = useState(false)
+  const [menu, setMenu] = useState(false);
+
   return (
-    <header className="w-auto h-20 px-4 py-2 mt-auto gap-1 bg-navbar flex justify-start items-center">
-      <img
-        src="../../../images/faviconico.png"
-        width={100}
-        className="px-4 "
-      ></img>
-      <h1 className="text-5xl text-logo-text font-serif">SEQUIATRON</h1>
-      <menu className="text-white scale-150 items-center px-4 lg:hidden ">
-        <HiBars3 />
-      </menu>
-      <navbar className="flex gap-7 px-4 mx-4 text-text text-xl hidden lg:flex lg:justify-end">
-        <Menu className={`icons ${menu && "open"}`} onClick={ () => setMenu(!menu)}/>
-      </navbar>
+    <header className="flex items-center justify-between w-full h-20 px-4 bg-navbar">
+      <div className="flex items-center">
+        <img
+          src="../../../images/faviconico.png"
+          alt="Logo"
+          className="w-12 mr-4"
+        />
+        <h1 className="font-serif text-2xl text-logo-text">SEQUIATRON</h1>
+      </div>
+      <div className="lg:hidden" onClick={() => setMenu(!menu)}>
+        <HiBars3 className="text-2xl text-white" />
+      </div>
+      <nav className={`fixed inset-0 bg-navbar bg-opacity-95 transform ${menu ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out lg:static lg:bg-transparent lg:translate-x-0 lg:flex lg:w-auto lg:p-0`}>
+        <div className="flex justify-end lg:hidden">
+          <button className="p-4 text-2xl text-white" onClick={() => setMenu(false)}>
+            &times;
+          </button>
+        </div>
+        <Menu closeMenu={() => setMenu(false)} />
+      </nav>
     </header>
   );
 };
