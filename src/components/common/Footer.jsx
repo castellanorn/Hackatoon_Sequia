@@ -22,7 +22,7 @@ const Footer = () => {
                     <a href="https://www.twitter.com" aria-label="Twitter" className="text-2xl text-text">
                         <FaTwitter />
                     </a>
-                    <a href="https://www.github.com" aria-label="GitHub" className="text-2xl text-text">
+                    <a href="https://github.com/castellanorn/Hackatoon_Sequia" aria-label="GitHub" className="text-2xl text-text">
                         <FaGithub />
                     </a>
                 </div>
