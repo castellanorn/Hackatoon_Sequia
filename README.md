@@ -32,6 +32,16 @@ Tests Unitarios: Implementación de tests para asegurar la calidad y correcto fu
 <br>
 A través de este proyecto, buscamos contribuir a la conservación del medio ambiente y al bienestar social, proporcionando una herramienta útil y accesible para la gestión de recursos hídricos en Cataluña. La aplicación está diseñada para ser utilizada por autoridades locales, investigadores y ciudadanos interesados en el seguimiento de las condiciones de sequía, ayudando a tomar decisiones informadas y a promover la sostenibilidad.consumo de APIs.
 
+## Enlaces a los repositorios 📦
+
+Enlace al Repositorio del Frontend:
+https://github.com/castellanorn/Hackatoon_Sequia
+
+Enlace al Repositorio del Backend:
+
+https://github.com/NCorvusH/Hackathon-SEQUIATRONappBackend
+
+
 ## Instalación 💾
 
 ### Requisitos previos
@@ -133,6 +143,7 @@ Librerias utilizadas
 
 ## Contribuición 💻
 
+
 1. Haz fork al repositorio.
 2. Crea una nueva rama: `git checkout -b feature-name`.
 3. Haz tus cambios.
@@ -161,6 +172,12 @@ Librerias utilizadas
 - [Eyad Atalah](https://github.com/eyadcode4)
 - [Norbert F. Maillo](https://github.com/NCorvusH)
 - [Ivan Vallejos](https://github.com/MegaDraconius)
+
+## Distribución y seguimiento de tareas con metodologías ágiles 👩‍💻
+
+Para la gestión de nuestro proyecto, hemos utilizado Trello como nuestra herramienta principal, siguiendo la metodología Kanban para la distribución eficiente de tareas. Este enfoque nos ha permitido visualizar el flujo de trabajo, limitar la cantidad de trabajo en progreso y maximizar la eficiencia. Además, hemos seguido una serie de convenciones y mejores prácticas para garantizar la coherencia y la calidad en todo nuestro trabajo. Creemos que este enfoque estructurado y disciplinado ha sido fundamental para nuestro éxito hasta ahora y continuará guiándonos en nuestras futuras iniciativas
+
+Incluyo un enlace a nuestro tablero de Trello para que puedan ver nuestra organización y gestión de tareas.[ Trello Sequiatron](https://trello.com/b/7hMlG6ek/grupo-4)
 
 ## Mockup y Capturas de Pantalla 📸
 
@@ -193,8 +210,24 @@ El diseño se realizó utilizando Figma, una potente herramienta para diseñar p
 ![Equipo Page Mobile](/src/assets/images/equipoPageMobile.png)
 
 
-## Despliegue del Proyecto
+## Despliegue del Proyecto 📽️
 
 Desplegamos nuestra página usando GitHub Pages, lo que nos ofrece hosting gratuito, integración continua, soporte para dominios personalizados y una fácil configuración directamente desde nuestros repositorios.
 
+Además de las ventajas técnicas que ofrece GitHub Pages, también lo seleccionamos por su compromiso con la sostenibilidad. Al ser una plataforma de alojamiento web ecológica, nos permite contribuir a la conservación del medio ambiente mientras desarrollamos y desplegamos nuestra página
+
 - Enlace a la pagina de  [Sequiatron.]()
+
+
+
+## Pendientes para futuros Sprints
+
+Reconocemos que nuestro proyecto actual tiene un gran potencial para crecer y evolucionar. Aunque hemos logrado mucho, sabemos que hay características adicionales que podríamos implementar para mejorar aún más nuestro producto. Estas mejoras no se han realizado hasta ahora debido a limitaciones de tiempo y conocimientos técnicos. Sin embargo, estamos comprometidos con la mejora continua y planeamos adquirir las habilidades necesarias para implementar estas características en el futuro.
+
+- [x] Crear la pagina Tips
+- [ ] Crear la pagina Zonas Afectadas
+- [ ] Implementación del CRUD en el Frontend
+- [ ] Mejorar componentes para un mejor RESPONSIVE y escalavilidad
+- [ ] Implementar TESTING y medir con un COVERAGE mínimo del 80%
+- [ ] Consumo y unión del Front con el back
+- [ ] Desplegar y llevar el front/back a contenedores con DOCKER
