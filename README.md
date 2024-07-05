@@ -212,9 +212,9 @@ El diseño se realizó utilizando Figma, una potente herramienta para diseñar p
 
 ## Despliegue del Proyecto 📽️
 
-Desplegamos nuestra página usando GitHub Pages, lo que nos ofrece hosting gratuito, integración continua, soporte para dominios personalizados y una fácil configuración directamente desde nuestros repositorios.
+Desplegamos nuestra página usando Netlify, lo que nos ofrece hosting gratuito, integración continua, soporte para dominios personalizados y una fácil configuración directamente desde nuestros repositorios.
 
-Además de las ventajas técnicas que ofrece GitHub Pages, también lo seleccionamos por su compromiso con la sostenibilidad. Al ser una plataforma de alojamiento web ecológica, nos permite contribuir a la conservación del medio ambiente mientras desarrollamos y desplegamos nuestra página
+Además de las ventajas técnicas que ofrece Netlify, también lo seleccionamos por su compromiso con la sostenibilidad. Al ser una plataforma de alojamiento web ecológica, nos permite contribuir a la conservación del medio ambiente mientras desarrollamos y desplegamos nuestra página
 
 - Enlace a la pagina de  [Sequiatron.](https://sequiatron.netlify.app/)
 
