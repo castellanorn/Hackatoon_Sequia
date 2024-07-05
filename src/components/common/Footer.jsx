@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -6,7 +7,7 @@ const Footer = () => {
         <footer className="flex-none w-full px-2 py-4 mt-auto bg-footer text-text md:px-8">
             <div className="container flex flex-col items-center justify-between mx-auto md:flex-row">
                 <p className="text-sm">
-                    <a href="#contact" className="hover:underline">Contáctanos</a> | <a href="#team" className="hover:underline">Equipo</a>
+                <Link to="/contact" className="hover:underline">Contáctanos</Link> | <Link to="/team" className="hover:underline">Equipo</Link>
                 </p>
                 <div className="mb-4 text-center md:text-left md:mb-0">
                     <p className="m-2 text-sm">sequiatron.com © 2024 sequiatron.</p>

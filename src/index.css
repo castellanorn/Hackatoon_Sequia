@@ -9,6 +9,8 @@
     --col-button: rgb(19, 110, 110);
     --col-text: rgb(255, 255, 255);
     --col-logo-text: rgb(45, 45, 41);
+    --col-bg-white: rgb(255, 255, 255);
+    --col-text-body: rgb(33, 90, 109);
 }
 
 * {
@@ -18,15 +20,19 @@
     font-family: 'Inria Sans', sans-serif;
 }
 
+
 body {
     width: 100vw;
     min-height: 100vh;
+    background-color: var(--col-body);
+    color: var(--col-text);
 }
 
 ul,
 li {
     list-style: none;
 }
+
 
 @font-face {
     font-family: 'Themify';
@@ -49,3 +55,25 @@ li {
 .icon-f {
     font-family: 'FontAwesome', sans-serif;
 }
+
+
+/* CONTACT-FORM  */
+.double-border {
+    position: relative;
+    padding: 20px;
+    border: 2px solid var(--col-navbar);
+}
+
+.double-border::before,
+.double-border::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    right: -10px;
+    bottom: 10px;
+    border: 2px solid var(--col-bg-white);
+    pointer-events: none;
+}
+
+
